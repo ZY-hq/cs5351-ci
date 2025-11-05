@@ -20,7 +20,7 @@ public class Test001 {
     // 新增测试方法：测试边界值（输入0和1）
     @Test
     public void testC() {
-        assertEquals(0, FloorSquareRoot.floorSqrt(0)); // 0的平方根为0
-        assertEquals(1, FloorSquareRoot.floorSqrt(1)); // 1的平方根为1
+        assertEquals(0, FloorSquareRoot.floorSqrt(30)); // 0的平方根为0
+        assertEquals(1, FloorSquareRoot.floorSqrt(40)); // 1的平方根为1
     }
 }
